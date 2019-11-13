@@ -1,0 +1,203 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto; 
+	position: relative;
+	box-shadow: 0 0 15px black;
+}
+
+.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	max-width: 1100px;
+	border-radius: 10px;
+}
+
+header {
+	position: relative;
+}
+
+.container > header > .top-right {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 17px;
+	line-height: 0px;
+	width: 340px;
+	padding-right: 10px;
+	font-variant: small-caps;
+	border-bottom-left-radius: 35px;
+	background-color: #FF6600;
+}
+
+.top-right > ul > li {
+    display: inline-block;
+    font-variant:small-caps;
+}
+
+.top-right ul a {
+    display: block;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: black;
+    padding: 0 6px;
+}
+
+.top-right ul a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.company {
+	padding-top: 100px; 
+	position: absolute;
+	top: 120px;
+	left: 30px;
+}
+
+.menu {
+	clear: both;
+}
+
+.right {
+	float: right;
+	padding-right: 30px;
+}
+
+.menu > ul {
+	border: 2px solid black;
+}
+
+.menu ul {
+	background-color: #FF6600;
+	line-height: 40px;
+	border-radius: 10px;
+}
+
+.menu ul li {
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	font-size: larger;
+	font-variant: small-caps;	
+}
+
+.menu ul li ul {
+	position: absolute;
+	display: none;
+	width: 160px;
+	padding: 0px;
+}
+
+.menu a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+
+.menu ul ul li {
+	font-size: 16px;
+}
+
+.menu > ul > li > ul > li {
+	display: block;
+}
+
+.menu ul li:hover ul {
+	display: block;
+}
+
+.menu a {
+	margin-left: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+article {
+	min-height: 400px;
+	width: 75%;
+	float: left;
+}
+
+iframe[name=page] {
+	min-height: 400px;
+	width: 100%;
+}
+
+aside {
+	min-height: 400px;
+	width: 24%;
+	float: left;
+	padding-bottom: 5px;
+}
+
+.gioHang {
+	height: 100px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	position: relative;
+}
+
+.gioHang .gio {
+	height: 80px;
+	position: absolute;
+	left: 30px;
+	top: 10px;
+}
+
+.kw {
+	margin-top: 15px;
+	border-radius: 10px; 
+	height: 30px;
+	border: 1px solid grey;
+}
+
+.form-control {
+	display: block;
+	margin: auto;
+	margin-top: 4px; 
+}
+
+.vmenu {
+	border: 1px solid grey;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+
+.vmenu ul {
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+}
+
+.vmenu li {
+	list-style: none;
+	border-bottom: 1px solid grey;
+	padding-left: 20px; 
+	font-variant: small-caps;
+	font-size: larger;
+}
+
+.vmenu a {
+	text-decoration: none; 
+	color: grey;
+}
+
+.vmenu li:hover, .vmenu a:hover, .vmenu li:hover a {
+	background-color: grey;
+	border-radius: 8px; 
+	color: white;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	box-shadow: 0 0 5px grey;
+	border-radius: 5px;
+	padding: 10px;
+}
